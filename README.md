@@ -349,28 +349,28 @@ void key()
 	if(!col1)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"Key-ON/C\n");
+		Lcd_string(&lcd,"Key ON/C\n");
 		HAL_Delay(500);
 		col1=1;
 	}
 	else if(!col2)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"Key-0\n");
+		Lcd_string(&lcd,"Key 0\n");
 		HAL_Delay(500);
 		col2=1;
 	}
 	else if(!col3)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"Key-=\n");
+		Lcd_string(&lcd,"Key =\n");
 		HAL_Delay(500);
 		col3=1;
 	}
 	else if(!col4)
 	{
 		Lcd_cursor(&lcd,0,1);
-		Lcd_string(&lcd,"Key-+\n");
+		Lcd_string(&lcd,"Key +\n");
 		HAL_Delay(500);
 		col4=1;
 	}
@@ -486,11 +486,16 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 
 ## Output screen shots of proteus  :
+## BEFORE :
+![image](https://github.com/Prasannalakshmiganesan/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/118610231/8f1c9b54-68e7-415c-b911-5f3553ed65aa)
+
+## AFTER :
  ![beeps](https://github.com/Prasannalakshmiganesan/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/118610231/0fa92d2a-7f59-4cd6-936d-b3b4cf075508)
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![image](https://github.com/Prasannalakshmiganesan/EXPERIMENT--05-INTERFACING-A-4X4-MATRIX-KEYPAD-AND-DISPLAY-THE-OUTPUT-ON-LCD/assets/118610231/58928153-7e61-422c-ae3e-cb2ef86a3628)
+
  
 ## Result :
 Interfacing a 4x4 keypad with ARM microcontroller are simulated in proteus and the results are verified.
